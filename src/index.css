@@ -1,4 +1,5 @@
-@import-normalize; /* bring in normalize.css styles */
+@import-normalize;
+/* bring in normalize.css styles */
 
 body {
   margin: 0;
@@ -12,4 +13,15 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.wrapper {
+  padding: 15px 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ul,
+p {
+  margin: 0;
+  padding: 0;
 }
